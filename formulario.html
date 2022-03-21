@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Ficha Biográfica</title>
+</head>
+<body class="text-center">
+    
+    
+    <!-- Navbar decoração -->
+    <nav class="navbar navbar-light" style="background-color: rgb(70, 187, 90);">
+    </nav>
+    <div class="container">
+
+        <main role="main" class="inner cover">
+            <h1 class="cover-heading">Aqui será realizado seu formulário.</h1>
+            <p class="lead">Tenha cuidado com as respostas, pois outro formulário só poderá ser realizado após a análise desse!</p>
+          </main>
+          <!--Divisão FB-->
+          <div class="alert alert-success" role="alert">
+            Ficha Biográfica
+          </div>
+
+          <!--Formulario FB-->
+          <form>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationDefault01">Aluno(a)</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Nome do aluno">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationDefault02">Telefone</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Número de telefone">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationDefaultUsername">Número</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend2">N°</span>
+                  </div>
+                  <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Número de inscrição" aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault03">Cidade</label>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="Cidade" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault04">Município</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Município" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault05">CEP</label>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="CEP" required>
+              </div>
+            </div>
+          </form>
+          
+          Série:
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1">
+            <label class="form-check-label" for="inlineRadio1">1°</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+            <label class="form-check-label" for="inlineRadio2">2°</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="opcao3">
+            <label class="form-check-label" for="inlineRadio3">3°</label>
+          </div>
+
+         
+          <select class="custom-select custom-select-lg mb-3">
+            <option selected>Curso</option>
+            <option value="1">Enfermagem</option>
+            <option value="2">Informática</option>
+            <option value="3">Adminitração</option>
+          </select>
+
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="number" class="form-control" placeholder="Ano Letivo">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Naturalidade">
+              </div>
+              <div class="col">
+                <input type="date" class="form-control" placeholder="Data de nascimento">
+              </div>
+            </div>
+            
+          </form>
+          <br>
+        
+          <input class="form-control"  type="text" placeholder="Responsável" readonly>
+          
+          <br>
+           <form>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationDefault01">Responsável</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Nome do Responsável">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationDefault02">Telefone</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Número de telefone">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationDefaultUsername">Parentesco</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend2">P</span>
+                  </div>
+                  <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Parentesco" aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault03">Cidade</label>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="Cidade" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault04">Município</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Município" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault05">CEP</label>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="CEP" required>
+              </div>
+            </div>
+          </form>
+          <br>
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="TEL(Residência)">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="TEL(Emprego)">
+              </div>
+            </div>
+          </form>
+          
+          <br>
+          
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Profissão">
+              </div>    
+          </form>
+          
+          <br><br>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1">
+            <label class="form-check-label" for="inlineRadio1">Afetivo</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+            <label class="form-check-label" for="inlineRadio2">Aposentado</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="opcao3">
+            <label class="form-check-label" for="inlineRadio3">Doméstico</label>
+          </div>
+
+          <br><br>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="opcao4">
+            <label class="form-check-label" for="inlineRadio4">Contratado</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="opcao5">
+            <label class="form-check-label" for="inlineRadio5">Desempregado</label>
+          </div>
+          
+          <br>
+          <a href="http://127.0.0.1:5500/formulario2.html" class="btn btn-success">Avançar</a>
+          
+            
+          
+            
+          
+          
+          
+
+          
+          
+      
+          
+
+          
+          
+          
+          
+          
+      
+
+
+
+        <!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
